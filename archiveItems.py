@@ -21,7 +21,7 @@
 #       c. The full path to the Excel inventory file
 #       d. The location to put the archive output ("data_dmp") ... the directory must already exist 
 # 5. Review the variables section below to 
-# 5. Execute following a pattern like this: "C:\Program Files\ArcGIS\Server\framework\runtime\ArcGIS\bin\Python\Scripts\propy.bat" "archiveItems.py"
+# 6. Execute following a pattern like this: "C:\Program Files\ArcGIS\Server\framework\runtime\ArcGIS\bin\Python\Scripts\propy.bat" "archiveItems.py"
 
 
 import os, time, configparser, logging, sys, openpyxl, requests, json, datetime, tempfile, csv
